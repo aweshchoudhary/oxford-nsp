@@ -390,15 +390,16 @@ get_header();
                                                 <div
                                                     class="field field--name-field-prog-cta2-link field--type-link field--label-hidden field--item">
                                                     <button
-                                                        onclick="openModal()"
+                                                        onclick="openModal('#modal-brochure')"
                                                         class="btn">Download brochure</button>
                                                 </div>
 
                                                 <div
                                                     class="field field--name-field-prog-cta3-link field--type-link field--label-hidden field--item">
-                                                    <a
-                                                        href="Applyhttps://www.sbs.ox.ac.uk/programmes/executive-education/person-programmes/oxford-programme-negotiation/masterclass-art-and-science-negotiation"
-                                                        class="btn">Watch our masterclass</a>
+
+                                                    <button
+                                                        onclick="openModal('#modal-masterclass')"
+                                                        class="btn">Watch our masterclass</button>
                                                 </div>
                                             </div>
                                             <div class="programme-header__text">
@@ -1892,20 +1893,31 @@ get_header();
     <div class="md:p-10 p-5 max-w-5xl max-h-[90vh] overflow-y-auto bg-white">
         <div class="flex items-center justify-between">
             <h2 class="my-0!">Download brochure</h2>
-            <button onclick="closeModal()">Close</button>
+            <button onclick="closeModal('#modal-brochure')">Close</button>
         </div>
         <?php echo do_shortcode('[wpforms id="1552"]') ?>
 
     </div>
 </div>
 
+<div id="modal-masterclass" style="display: none;" class="fixed! bottom-0! left-0! right-0! size-full! bg-black/40! z-10! flex items-center justify-center">
+    <div class="md:p-10 p-5 max-w-5xl max-h-[90vh] overflow-y-auto bg-white">
+        <div class="flex items-center justify-between">
+            <h2 class="my-0!">Watch our masterclass</h2>
+            <button onclick="closeModal('#modal-masterclass')">Close</button>
+        </div>
+        <?php echo do_shortcode('[wpforms id="1612"]') ?>
+
+    </div>
+</div>
+
 <script>
-    const closeModal = () => {
-        const modal = document.querySelector('#modal-brochure');
+    const closeModal = (modalId) => {
+        const modal = document.querySelector(modalId);
         modal.style.display = 'none';
     }
-    const openModal = () => {
-        const modal = document.querySelector('#modal-brochure');
+    const openModal = (modalId) => {
+        const modal = document.querySelector(modalId);
         modal.style.display = 'flex';
     }
 </script>
