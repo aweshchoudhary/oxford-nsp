@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+
+:root {
+    --wpforms-button-background-color: #002147 !important;
+    --wpforms-button-border-color: #002147 !important;
+    --wpforms-page-break-color: #002147 !important;
+    --wpforms-button-text-color: #ffffff;
+}

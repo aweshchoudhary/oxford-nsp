@@ -1917,56 +1917,6 @@ get_header();
                                 </div>
 
                                 <a name="contact"></a>
-
-                                <div
-                                    class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
-                                    <div class="row hidden-xs" aria-hidden="true">
-                                        <div class="col-sm-12"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div
-                                            class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-6">
-                                            <h2 class="title-block-heading">Contact</h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                            <p>
-                                                For more information on this, or any of our programmes,
-                                                please complete our
-                                                <a
-                                                    href="https://www.sbs.ox.ac.uk/programmes/executive-education/person-programmes/executive-education-person-programme-enquiries">online form</a>.
-                                            </p>
-                                            <p>
-                                                Alternatively, please call Darren Smith, Programme
-                                                Consultant, on +44(0)7511 880357.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div
-                                    class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
-                                    <div class="row hidden-xs" aria-hidden="true">
-                                        <div class="col-sm-12"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div
-                                            class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-6">
-                                            <h2 class="title-block-heading">Terms and conditions</h2>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                                            <p>
-                                                <a
-                                                    href="https://www.sbs.ox.ac.uk/about-us/terms-and-conditionsyour-data">Review our terms and conditions</a>.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </article>
                     </div>

@@ -1,7 +1,7 @@
-<footer class="section bg-primary text-white">
+<footer class="section bg-[#002147] lg:p-16 md:p-10 p-5 text-white">
     <div class="flex flex-wrap lg:gap-20 md:gap-10 gap-5">
         <div class="shrink-0">
-            <figure class="md:w-32 w-20">
+            <figure class="md:w-22 w-18">
                 <?php
                 $image_id = get_field('footer_logo', 'option');
                 if ($image_id) :
@@ -13,6 +13,8 @@
                     <figcaption><?php echo wp_kses_post(wp_get_attachment_caption($image_id)); ?></figcaption>
                 <?php endif; ?>
             </figure>
+            <br>
+            <br>
 
             <ul class="list-none pl-0 mt-10 space-y-3 text-lg">
                 <?php
@@ -47,8 +49,8 @@
                 foreach ($addresses as $item) :
                     if (isset($item['icon'], $item['title'], $item['address'])) :
             ?>
-                        <div class="md:basis-1/2 basis-full flex items-start md:gap-5 gap-3 md:mt-10 mt-5">
-                            <figure class="md:w-[40px] w-[30px] shrink-0">
+                        <div class="md:basis-1/2 basis-full flex items-start md:gap-3 gap-3">
+                            <figure class="md:w-[30px] w-[25px] shrink-0">
                                 <?php echo wp_get_attachment_image($item['icon'], 'thumbnail', false, [
                                     'loading' => 'lazy',
                                     'class' => 'image-contain',
@@ -56,8 +58,8 @@
                                 <figcaption><?php echo wp_kses_post(wp_get_attachment_caption($item['icon'])); ?></figcaption>
                             </figure>
                             <div>
-                                <h3 class="md:text-2xl mb-1 font-semibold"><?php echo esc_html($item['title']); ?></h3>
-                                <p><?php echo wp_kses_post($item['address']); ?></p>
+                                <h3 class="md:text-2xl my-0! font-semibold"><?php echo esc_html($item['title']); ?></h3>
+                                <p class="my-0!"><?php echo wp_kses_post($item['address']); ?></p>
                             </div>
                         </div>
             <?php
@@ -77,6 +79,8 @@
     <?php endif; ?>
 </footer>
 <?php wp_footer(); ?>
+
+
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js_SjpF8iGHD_9WHzuS3dpxlYO0htmrIWF2UxjzTzavT84.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/polyfill.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/js_aCMg_BPMHJdFtY-e3QIxxSXKpYfouhJ0qqz0A1d0w6o.js"></script>

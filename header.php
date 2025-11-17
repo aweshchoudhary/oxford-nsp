@@ -21,7 +21,7 @@
     <meta name="keywords" content="program, course" />
     <link
         rel="canonical"
-        href="https://www.sbs.ox.ac.uk/programmes/executive-education/person-programmes/oxford-programme-negotiation" />
+        href="https://oxford-negotiation-strategies.xedinstitute.org/" />
     <link
         rel="image_src"
         href="<?php echo get_template_directory_uri(); ?>/assets/3054-30 - lady with explaining hands.jpg" />
@@ -29,7 +29,7 @@
     <meta property="og:type" content="programme" />
     <meta
         property="og:url"
-        content="https://www.sbs.ox.ac.uk/programmes/executive-education/person-programmes/oxford-programme-negotiation" />
+        content="https://oxford-negotiation-strategies.xedinstitute.org/" />
     <meta
         property="og:title"
         content="Oxford Programme on Negotiation | Saïd Business School" />
