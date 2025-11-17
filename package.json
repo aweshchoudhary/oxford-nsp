@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "styles:watch": "npx @tailwindcss/cli -i ./styles/input.css -o ./styles/global.css --watch --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.17",
+    "tailwindcss": "^4.1.17"
+  }
+}
