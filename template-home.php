@@ -223,8 +223,8 @@ get_header();
                                             </div>
                                         </div>
                                         <div class="col-sm-5 col-sm-pull-7">
-                                            <h1 class="programme-header__heading mt-10!">
-                                                <span>Oxford Programme on Negotiation</span>
+                                            <h1 class="programme-header__heading mt-10! xl:text-[2.8rem]!">
+                                                <span>Oxford <br> Negotiation Strategies Programme</span>
                                             </h1>
                                             <div class="programme-header__image-wrapper visible-xs">
                                                 <div class="row">
@@ -375,7 +375,7 @@ get_header();
                                                 </div>
                                             </div>
 
-                                            <div class="programme-header__subheading">
+                                            <div class="programme-header__subheading font-light!">
                                                 Realise your full potential as a negotiator
                                             </div>
 
@@ -389,10 +389,9 @@ get_header();
 
                                                 <div
                                                     class="field field--name-field-prog-cta2-link field--type-link field--label-hidden field--item">
-                                                    <a
-                                                        href="/download-brochure"
-                                                        target="_self"
-                                                        class="btn">Download a brochure</a>
+                                                    <button
+                                                        onclick="openModal()"
+                                                        class="btn">Download brochure</button>
                                                 </div>
 
                                                 <div
@@ -405,7 +404,7 @@ get_header();
                                             <div class="programme-header__text">
                                                 <div
                                                     class="field field--name-field-prog-start-date field--type-datetime field--label-hidden field--items list-wrapper list-wrapper--columnated">
-                                                    <p class="list-header">Start dates:</p>
+                                                    <p class="list-header">Start date:</p>
                                                     <ul class="list list--inline list--slash-separated">
                                                         <li class="field--item list__item">
                                                             <time datetime="2025-11-02T12:00:00Z">2nd February 2026</time>
@@ -426,11 +425,11 @@ get_header();
                                                     class="field field--name-field-prog-location field--type-entity-reference field--label-hidden field--items list-wrapper list-wrapper--columnated">
                                                     <p class="list-header">Format:</p>
                                                     <ul class="list list--inline list--slash-separated">
-                                                        <li class="field--item list__item">Online + classroom in Dubai</li>
+                                                        <li class="field--item list__item">Classroom (Dubai) + live online</li>
                                                     </ul>
                                                 </div>
                                                 <div class="list-wrapper list-wrapper--columnated">
-                                                    <p class="list-header">Cost:</p>
+                                                    <p class="list-header">Fee:</p>
                                                     <ul class="list list--inline list--slash-separated">
                                                         <li
                                                             class="field field--name-field-prog-cost field--type-string field--label-hidden field--item list__item">
@@ -441,6 +440,8 @@ get_header();
                                             </div>
                                         </div>
                                     </div>
+                                    <br>
+                                    <p><em>*The programme fee is inclusive of all teaching fees, all academic materials. It does not cover any other expenses that are not expressly mentioned above.</em></p>
                                 </div>
                                 <div
                                     class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
@@ -522,169 +523,9 @@ get_header();
                                             <div>
                                                 <div
                                                     class="field field--name-field-media-video-embed-field field--type-video-embed-field field--label-hidden field--item">
-                                                    <div
-                                                        class="video-embed-field-provider-youtube video-embed-field-responsive-video form-group inview inview--false">
-                                                        <iframe
-                                                            id="YouTubeIframe"
-                                                            width="854"
-                                                            height="480"
-                                                            frameborder="0"
-                                                            allowfullscreen="allowfullscreen"
-                                                            src="./assets/YFlLgxjwgzs.html"></iframe>
-                                                    </div>
+                                                    <iframe class="w-full aspect-video h-full" width="560" height="315" src="https://www.youtube.com/embed/YFlLgxjwgzs?si=ITaz_QbGkf_5Cect" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div class="video-only__poster-image inview inview--false">
-                                            <button class="video-only__play-button">
-                                                <span class="visually-hidden">Play video</span>
-                                            </button>
-
-                                            <picture>
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xxs_12_1x_16by9/public/negotiation-thumbnail.png.webp?itok=4Yt-oW3h 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xxs_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=zZFFCG7a 2x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xxs_12_3x_16by9/public/negotiation-thumbnail.png.webp?itok=dn3jBMSu 3x
-                          "
-                                                    media="all and (min-width: 0) and (max-width: 479px)"
-                                                    type="image/webp"
-                                                    width="450"
-                                                    height="253" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_1x_16by9/public/negotiation-thumbnail.png.webp?itok=9Ubi5HQD 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=R8SqfsBO 2x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_3x_16by9/public/negotiation-thumbnail.png.webp?itok=bg7pnY6s 3x
-                          "
-                                                    media="all and (min-width: 480px) and (max-width: 767px)"
-                                                    type="image/webp"
-                                                    width="738"
-                                                    height="415" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_md_12_1x_16by9/public/negotiation-thumbnail.png.webp?itok=t10lM4vu 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=R8SqfsBO 2x
-                          "
-                                                    media="all and (min-width: 768px) and (max-width: 991px)"
-                                                    type="image/webp"
-                                                    width="940"
-                                                    height="529" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_md_12_1x_16by9/public/negotiation-thumbnail.png.webp?itok=t10lM4vu 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_md_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=Z7vxZIbR 2x
-                          "
-                                                    media="all and (min-width: 992px) and (max-width: 1199px)"
-                                                    type="image/webp"
-                                                    width="940"
-                                                    height="529" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_1x_16by9/public/negotiation-thumbnail.png.webp?itok=a5cOlUkC 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=VHuRJyZn 2x
-                          "
-                                                    media="all and (min-width: 1200px) and (max-width: 1599px)"
-                                                    type="image/webp"
-                                                    width="1140"
-                                                    height="641" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_1x_16by9/public/negotiation-thumbnail.png.webp?itok=a5cOlUkC 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=VHuRJyZn 2x
-                          "
-                                                    media="all and (min-width: 1600px) and (max-width: 1920px)"
-                                                    type="image/webp"
-                                                    width="1140"
-                                                    height="641" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_2x_16by9/public/negotiation-thumbnail.png.webp?itok=VHuRJyZn 1x
-                          "
-                                                    media="all and (min-width: 1921px)"
-                                                    type="image/webp"
-                                                    width="2280"
-                                                    height="1282" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xxs_12_1x_16by9/public/negotiation-thumbnail.png.jpg?itok=4Yt-oW3h 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xxs_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=zZFFCG7a 2x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xxs_12_3x_16by9/public/negotiation-thumbnail.png.jpg?itok=dn3jBMSu 3x
-                          "
-                                                    media="all and (min-width: 0) and (max-width: 479px)"
-                                                    type="image/jpeg"
-                                                    width="450"
-                                                    height="253" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_1x_16by9/public/negotiation-thumbnail.png.jpg?itok=9Ubi5HQD 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=R8SqfsBO 2x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_3x_16by9/public/negotiation-thumbnail.png.jpg?itok=bg7pnY6s 3x
-                          "
-                                                    media="all and (min-width: 480px) and (max-width: 767px)"
-                                                    type="image/jpeg"
-                                                    width="738"
-                                                    height="415" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_md_12_1x_16by9/public/negotiation-thumbnail.png.jpg?itok=t10lM4vu 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_xs_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=R8SqfsBO 2x
-                          "
-                                                    media="all and (min-width: 768px) and (max-width: 991px)"
-                                                    type="image/jpeg"
-                                                    width="940"
-                                                    height="529" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_md_12_1x_16by9/public/negotiation-thumbnail.png.jpg?itok=t10lM4vu 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_md_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=Z7vxZIbR 2x
-                          "
-                                                    media="all and (min-width: 992px) and (max-width: 1199px)"
-                                                    type="image/jpeg"
-                                                    width="940"
-                                                    height="529" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_1x_16by9/public/negotiation-thumbnail.png.jpg?itok=a5cOlUkC 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=VHuRJyZn 2x
-                          "
-                                                    media="all and (min-width: 1200px) and (max-width: 1599px)"
-                                                    type="image/jpeg"
-                                                    width="1140"
-                                                    height="641" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_1x_16by9/public/negotiation-thumbnail.png.jpg?itok=a5cOlUkC 1x,
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=VHuRJyZn 2x
-                          "
-                                                    media="all and (min-width: 1600px) and (max-width: 1920px)"
-                                                    type="image/jpeg"
-                                                    width="1140"
-                                                    height="641" />
-                                                <source
-                                                    srcset="
-                            https://www.sbs.ox.ac.uk/sites/default/files/styles/col_lg_12_2x_16by9/public/negotiation-thumbnail.png.jpg?itok=VHuRJyZn 1x
-                          "
-                                                    media="all and (min-width: 1921px)"
-                                                    type="image/jpeg"
-                                                    width="2280"
-                                                    height="1282" />
-
-                                                <img
-                                                    loading="eager"
-                                                    width="1445"
-                                                    height="926"
-                                                    src="./assets/negotiation-thumbnail.png"
-                                                    alt='""'
-                                                    typeof="foaf:Image"
-                                                    class="img-responsive" />
-                                            </picture>
-                                        </div>
-                                        <div class="video-only__transcript">
-                                            <a
-                                                href="https://www.sbs.ox.ac.ukhttps://www.sbs.ox.ac.uk/sites/default/files/2025-04/oxford_negotiation_programme.txt"
-                                                target="_blank"
-                                                download="">Download video transcript</a>
                                         </div>
                                     </div>
                                 </div>
@@ -826,16 +667,47 @@ get_header();
                                 </div>
 
                                 <div
+                                    class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
+                                    <div class="row hidden-xs" aria-hidden="true">
+                                        <div class="col-sm-12"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-6">
+                                            <h2 class="title-block-heading">Join the Oxford Business Alumni Network</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+
+                                            <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/1924b56c-a720-48da-983b-8fb4ed1cc788-e1763381949434-1.webp" alt="Oxford Business Alumni Network" width="100%" height="auto" class="w-full h-auto">
+                                            <br>
+
+                                            <p>After completing this programme you will be eligible for membership of the Oxford Business Alumni (OBA) Network.</p>
+                                            <ul>
+                                                <li>Access to the online OBA Community and a private LinkedIn group to help you search for and connect with other alumni</li>
+                                                <li>Ability to join regional OBA Chapters across the globe</li>
+                                                <li>Invitations to academic, networking and social events, both in Oxford and the country you are based in</li>
+                                                <li>Subscription to the monthly eNewsletter</li>
+                                                <li>Access to the OBA website, including alumni news and learning resources</li>
+                                            </ul>
+                                            <p>This comprehensive package of benefits ensures ongoing connection to the Oxford community and continued professional development opportunities long after the programme concludes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
                                     class="paragraph paragraph--type--teaser-component paragraph--view-mode--default teaser-component">
                                     <div class="row">
                                         <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+                                            class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-2">
                                             <h2 class="title-block-heading">Meet the faculty</h2>
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-3">
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                                             <div
                                                 class="field field--name-field-teaser-intro-text field--type-text-long field--label-hidden field--item teaser-component__intro">
                                                 <p>
@@ -848,7 +720,7 @@ get_header();
                                     </div>
                                     <div class="row">
                                         <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-3">
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                                             <div
                                                 class="field field--name-field-teaser-sub-component field--type-entity-reference-revisions field--label-hidden field--items">
                                                 <ul class="row field--items__list">
@@ -1198,13 +1070,41 @@ get_header();
                                         </div>
                                     </div>
                                 </div>
+
+
+
+                                <div
+                                    class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
+                                    <div class="row hidden-xs" aria-hidden="true">
+                                        <div class="col-sm-12"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-6">
+                                            <h2 class="title-block-heading">Certificate</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                            <p>Upon successful completion of the programme, participants receive a digital certificate from Saïd Business School, University of Oxford.</p>
+                                            <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/Oxford-SELP-Programme-Certificate-1.png" alt="Certificate" width="100%" height="auto" class="w-full h-auto">
+
+                                            <br>
+                                            <p><em>Please note: The certificate image is for illustrative purposes only and may be subject to change at the discretion of Saïd Business School, University of Oxford.</em></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                                 <a name="blogs"></a>
+
 
                                 <div
                                     class="paragraph paragraph--type--teaser-component paragraph--view-mode--default teaser-component">
                                     <div class="row">
                                         <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
+                                            class="col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-2">
                                             <h2 class="title-block-heading">
                                                 Participant experiences
                                             </h2>
@@ -1212,7 +1112,7 @@ get_header();
                                     </div>
                                     <div class="row">
                                         <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-3">
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                                             <div
                                                 class="field field--name-field-teaser-intro-text field--type-text-long field--label-hidden field--item teaser-component__intro">
                                                 <p>
@@ -1223,7 +1123,7 @@ get_header();
                                     </div>
                                     <div class="row">
                                         <div
-                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-3">
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                                             <div
                                                 class="field field--name-field-teaser-sub-component field--type-entity-reference-revisions field--label-hidden field--items">
                                                 <ul class="row field--items__list">
@@ -1917,6 +1817,57 @@ get_header();
                                 </div>
 
                                 <a name="contact"></a>
+
+                                <div
+                                    class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
+                                    <div class="row hidden-xs" aria-hidden="true">
+                                        <div class="col-sm-12"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-6">
+                                            <h2 class="title-block-heading">Application process</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                            <p>When reviewing applications, the Admissions Panel seeks to achieve a thoughtful balance of organisational and industry representation, while considering candidate’s professional experience and current responsibilities.</p>
+
+                                            <p>The Admissions Panel evaluates curriculum vitae or LinkedIn profile.</p>
+
+                                            <p>At the panel’s discretion, select candidates may be invited for a one-on-one interaction to further assess interpersonal and communication skills, depth of work experience, career orientation, and motivation for pursuing this programme.</p>
+
+
+                                            <ul class="list-none! grid lg:grid-cols-3 grid-cols-1 gap-4">
+
+                                                <li>
+
+                                                    <span class="flex items-center justify-center rounded-full bg-[#002147] text-white size-6 text-center">1</span>
+                                                    <strong>Application submission</strong> <br> Submit your CV or LinkedIn profile
+                                                </li>
+                                                <li>
+                                                    <span class="flex items-center justify-center rounded-full bg-[#002147] text-white size-6 text-center">2</span>
+                                                    <strong>Application review</strong> <br> Admissions Panel will verify your application and evaluate it for eligibility and fit for programme
+                                                </li>
+                                                <li>
+                                                    <span class="flex items-center justify-center rounded-full bg-[#002147] text-white size-6 text-center">3</span>
+                                                    <strong>Offer decision</strong> <br> Receive a decision on your programme application via email from the Admissions Panel
+                                                </li>
+                                            </ul>
+
+                                            <p><em>We do not discriminate against any person based on race, colour, sex or sexual orientation, gender identity, religion, age, national or ethnic origin, political beliefs, veteran status, or disability in admission to, access to, treatment in, or employment in this programme.</em></p>
+
+                                            <div
+                                                class="field field--name-field-prog-cta1-link field--type-link field--label-hidden field--item">
+                                                <a
+                                                    href="/apply-now"
+                                                    class="btn">Apply now</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </article>
                     </div>
@@ -1934,6 +1885,31 @@ get_header();
         </div>
     </div>
 </div>
+
+
+
+<div id="modal-brochure" style="display: none;" class="fixed! bottom-0! left-0! right-0! size-full! bg-black/40! z-10! flex items-center justify-center">
+    <div class="md:p-10 p-5 max-w-5xl max-h-[90vh] overflow-y-auto bg-white">
+        <div class="flex items-center justify-between">
+            <h2 class="my-0!">Download brochure</h2>
+            <button onclick="closeModal()">Close</button>
+        </div>
+        <?php echo do_shortcode('[wpforms id="1552"]') ?>
+
+    </div>
+</div>
+
+<script>
+    const closeModal = () => {
+        const modal = document.querySelector('#modal-brochure');
+        modal.style.display = 'none';
+    }
+    const openModal = () => {
+        const modal = document.querySelector('#modal-brochure');
+        modal.style.display = 'flex';
+    }
+</script>
+
 
 
 <?php get_footer(); ?>

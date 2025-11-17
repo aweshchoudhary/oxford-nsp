@@ -6,4 +6,6 @@
     --wpforms-button-border-color: #002147 !important;
     --wpforms-page-break-color: #002147 !important;
     --wpforms-button-text-color: #ffffff;
+    --wpforms-button-border-radius: 0 !important;
+    --wpforms-field-border-radius: 0 !important;
 }

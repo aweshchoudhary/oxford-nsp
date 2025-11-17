@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo the_title(); ?></title>
-    <?php wp_head(); ?>
 
     <script>
         document.documentElement.className = "theme-js";
@@ -81,14 +80,18 @@
         rel="mask-icon"
         href="https://www.sbs.ox.ac.uk/themes/custom/said/favicons/safari-pinned-tab.svg"
         color="#002147" />
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/google_tag.script.js" defer=""></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/assets/google_tag(1).script.js" defer=""></script>
+
+
+
+
+    <?php wp_head(); ?>
 
     <link
         rel="stylesheet"
         media="all"
         href="<?php echo get_template_directory_uri(); ?>/assets/css_nT2MR4kYuu0ld5d4VjAPx06OWcOpSmghz2pYROfLfmo.css" />
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/assets/css" />
+
     <link
         rel="stylesheet"
         media="all"
@@ -100,7 +103,7 @@
 <body <?php body_class(); ?>>
 
     <header>
-        <div class="flex items-center justify-between lg:px-16 md:px-10 px-5 md:py-6 py-4 md:gap-0 gap-20">
+        <div class="flex items-center justify-between lg:px-18 md:px-14 px-5 md:py-6 py-4 md:gap-0 gap-20">
             <a aria-label="goto home page" href="/">
                 <figure class="lg:w-[160px] md:w-[130px] w-[100px]">
                     <?php $image_id = get_field("main_logo", "option") ?>
