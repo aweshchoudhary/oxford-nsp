@@ -408,7 +408,7 @@ get_header();
                                                     <p class="list-header">Start date:</p>
                                                     <ul class="list list--inline list--slash-separated">
                                                         <li class="field--item list__item">
-                                                            <time datetime="2025-11-02T12:00:00Z">2nd February 2026</time>
+                                                            <time datetime="2025-11-02T12:00:00Z">2 February 2026</time>
                                                         </li>
                                                     </ul>
                                                 </div>
@@ -442,7 +442,7 @@ get_header();
                                         </div>
                                     </div>
                                     <br>
-                                    <p><em>*The programme fee is inclusive of all teaching fees, all academic materials. It does not cover any other expenses that are not expressly mentioned above.</em></p>
+                                    <p><em>*The programme fee includes all teaching fees and academic materials. It does not cover any other expenses not expressly mentioned above.</em></p>
                                 </div>
                                 <div
                                     class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
@@ -472,7 +472,7 @@ get_header();
                                                 online.
                                             </p>
                                             <p>
-                                                Working with experienced faculty and tutors, you will
+                                                Working with experienced faculty, you will
                                                 take an objective look at your own negotiating style,
                                                 reflect on past negotiations and experiment with new
                                                 approaches.
@@ -503,6 +503,46 @@ get_header();
                                                     negotiations
                                                 </li>
                                                 <li>Getting a deal over the line</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="paragraph paragraph--type--text-only paragraph--view-mode--default text-only">
+                                    <div class="row hidden-xs" aria-hidden="true">
+                                        <div class="col-sm-12"></div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-9 col-sm-offset-1 col-md-7 col-md-offset-2 col-lg-6">
+                                            <h2 class="title-block-heading">Key highlights</h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                                            <ul class="grid no-before sm:grid-cols-2 grid-cols-1 lg:gap-10 gap-5">
+                                                <li>
+                                                    <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/dc02d12a-6267-474f-8641-e7ec372b5ec1.webp" alt="icon image" width="100%" height="auto" class="md:size-14 size-10 mb-2">
+                                                    4 in-person classroom days in Dubai
+                                                </li>
+                                                <li>
+                                                    <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/1e6533fd-be5a-40f1-896b-65969ca3886d.webp" alt="icon image" width="100%" height="auto" class="md:size-14 size-10 mb-2">
+                                                    2 live interactive sessions
+                                                </li>
+                                                <li>
+                                                    <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/41895b29-83f1-4e2b-b230-786a8b72d170.webp" alt="icon image" width="100%" height="auto" class="md:size-14 size-10 mb-2">
+                                                    Certificate from Saïd Business School, University of Oxford
+                                                </li>
+                                                <li>
+                                                    <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/f10efc85-59c1-4177-9114-1b6f015e8786.webp" alt="icon image" width="100%" height="auto" class="md:size-14 size-10 mb-2">
+                                                    Learn from world renowned Oxford faculty
+                                                </li>
+                                                <li>
+                                                    <img src="https://oxford-negotiation-strategies.xedinstitute.org/wp-content/uploads/2025/11/cd25fce5-89ad-4eca-aed2-2bb46ff2e1f0.webp" alt="icon image" width="100%" height="auto" class="md:size-14 size-10 mb-2">
+                                                    Oxford Business Alumni (OBA) Network
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -693,7 +733,6 @@ get_header();
                                                 <li>Subscription to the monthly eNewsletter</li>
                                                 <li>Access to the OBA website, including alumni news and learning resources</li>
                                             </ul>
-                                            <p>This comprehensive package of benefits ensures ongoing connection to the Oxford community and continued professional development opportunities long after the programme concludes.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1881,7 +1920,9 @@ get_header();
                 class="back-to-top-link"
                 href="https://www.sbs.ox.ac.uk/programmes/executive-education/person-programmes/oxford-programme-negotiation#top">
                 <span class="visually-hidden">Back to top</span>
-                <span class="icon icon-angle-up"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="size-4" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M13 20h-2V8l-5.5 5.5l-1.42-1.42L12 4.16l7.92 7.92l-1.42 1.42L13 8z" />
+                </svg>
             </a>
         </div>
     </div>

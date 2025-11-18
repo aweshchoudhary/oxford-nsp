@@ -31,7 +31,7 @@
         content="https://oxford-negotiation-strategies.xedinstitute.org/" />
     <meta
         property="og:title"
-        content="Oxford Programme on Negotiation | Saïd Business School" />
+        content="Oxford Negotiation Strategies Programme" />
     <meta
         property="og:description"
         content="Realise your full potential as a negotiator" />
@@ -48,7 +48,7 @@
     <meta name="twitter:site" content="@OxfordSBS" />
     <meta
         name="twitter:title"
-        content="Oxford Programme on Negotiation | Saïd Business School" />
+        content="Oxford Negotiation Strategies Programme" />
     <meta
         name="twitter:image"
         content="https://www.sbs.ox.ac.ukhttps://www.sbs.ox.ac.uk/sites/default/files/3054-30%20-%20lady%20with%20explaining%20hands.jpg" />

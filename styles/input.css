@@ -9,3 +9,13 @@
     --wpforms-button-border-radius: 0 !important;
     --wpforms-field-border-radius: 0 !important;
 }
+
+
+.no-before > li:before {
+    content: none !important;
+    display: none !important;
+}
+
+.no-before > li {
+    margin: 0 !important;
+}
